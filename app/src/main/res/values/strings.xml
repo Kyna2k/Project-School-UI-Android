@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Assignment</string>
+    <string name="person">Cá Nhân</string>
+    <string name="homepage">Trang chủ</string>
+    <string name="email">Email</string>
+    <string name="username">Username</string>
+    <string name="passwork">Passwork</string>
+    <string name="full_name">Full name</string>
+    <string name="location">Location</string>
+    <string name="btn_signup_next">Tiếp tục</string>
+    <string name="btn_signup_back">Back</string>
+    <string name="title_app">YOUR WALLETS YOUR WAYS</string>
+    <string name="edt_login">Nhập tài khoản</string>
+    <string name="forget_pass">Quên mật khẩu</string>
+    <string name="open">openne</string>
+    <string name="close">closene</string>
+</resources>

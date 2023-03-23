@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.themgiaodich">
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:id="@+id/imageView2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_baseline_cancel_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/title_ne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/magistral_bold"
+        android:text="Thanh Toán"
+        android:textAllCaps="true"
+        android:textColor="@color/app_color"
+        android:textSize="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="20dp"
+        android:id="@+id/card_nhap"
+        android:paddingBottom="10dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:cardCornerRadius="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+                <Spinner
+                    android:background="@drawable/background_spinner"
+                    android:drawSelectorOnTop="true"
+                    android:spinnerMode="dropdown"
+                    android:dropDownVerticalOffset="50dp"
+                    android:id="@+id/dsvi"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <Spinner
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/background_spinner"
+                    android:drawSelectorOnTop="true"
+                    android:spinnerMode="dropdown"
+                    android:dropDownVerticalOffset="50dp"
+                    android:id="@+id/dsdanhmuc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_marginTop="10dp"
+                android:layout_gravity="top"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textInputLayout2"
+                style="@style/edit_dangky">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:fontFamily="@font/magistral_bold"
+                    android:id="@+id/nhaptien"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:hint="Nhập số tiền muốn nạp"
+                    android:textSize="16sp" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <GridView
+                android:listSelector="@drawable/background_grid_item_select2"
+                android:layout_gravity="bottom"
+                android:numColumns="3"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:id="@+id/grid_giaodich"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/ngay"
+        style="@style/edit_dangky"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@+id/card_nhap"
+        app:layout_constraintTop_toBottomOf="@+id/card_nhap"
+        app:layout_constraintWidth_percent="0.4">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/nhapngay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:focusable="false"
+            android:text="Hôm nay"
+            android:focusableInTouchMode="false"
+            android:fontFamily="@font/magistral_bold"
+            android:hint="Ngày giao dịch"
+            android:textSize="16sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/gio"
+        style="@style/edit_dangky"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/card_nhap"
+        app:layout_constraintTop_toBottomOf="@+id/card_nhap"
+        app:layout_constraintWidth_percent="0.4">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/nhapgio"
+            android:text="Bây giờ"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:fontFamily="@font/magistral_bold"
+            android:hint="Giờ giao dịch"
+            android:textSize="16sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/note"
+        style="@style/edit_dangky"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        app:layout_constraintEnd_toEndOf="@+id/gio"
+        app:layout_constraintStart_toStartOf="@+id/ngay"
+        app:layout_constraintTop_toBottomOf="@+id/ngay">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:gravity="top"
+            android:id="@+id/nhapnote"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/magistral_bold"
+            android:hint="Thông tin thêm"
+            android:textSize="16sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/btn_them"
+        style="@style/btn_signup"
+        android:text="Thêm"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/note" />
+</androidx.constraintlayout.widget.ConstraintLayout>

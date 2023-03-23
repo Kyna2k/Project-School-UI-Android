@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/thiet ke android/Assignment/app/src/main/res/drawable-v24/background_avatar_inhome.xml" value="0.364" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/thiet ke android/Assignment/app/src/main/res/drawable-v24/clickdiban.xml" value="0.2735" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/thiet ke android/Assignment/app/src/main/res/drawable-v24/color_red.xml" value="0.2735" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/thiet ke android/Assignment/app/src/main/res/drawable/background_avatar.xml" value="0.308" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/thiet ke android/Assignment/app/src/main/res/drawable/background_bottom_nav.xml" value="0.396" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/thiet ke android/Assignment/app/src/main/res/drawable/background_edit.xml" value="0.396" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/thiet ke android/Assignment/app/src/main/res/drawable/background_gradian.xml" value="0.2725" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/thiet ke android/Assignment/app/src/main/res/drawable/background_grid_item_select.xml" value="0.364" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/thiet ke android/Assignment/app/src/main/res/drawable/background_grid_item_select2.xml" value="0.1655" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/thiet ke android/Assignment/app/src/main/res/drawable/background_spinner.xml" value="0.138" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/thiet ke android/Assignment/app/src/main/res/drawable/btn_background_signup.xml" value="0.281" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/thiet ke android/Assignment/app/src/main/res/drawable/btn_chuyen_card.xml" value="0.1535" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/thiet ke android/Assignment/app/src/main/res/drawable/btn_second.xml" value="0.244" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/thiet ke android/Assignment/app/src/main/res/drawable/btn_select.xml" value="0.1" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/thiet ke android/Assignment/app/src/main/res/drawable/cursor_edt.xml" value="0.396" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/thiet ke android/Assignment/app/src/main/res/drawable/dialog_avatar.xml" value="0.364" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/thiet ke android/Assignment/app/src/main/res/drawable/gradent_card.xml" value="0.364" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/thiet ke android/Assignment/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.396" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/thiet ke android/Assignment/app/src/main/res/layout/activity_chart2.xml" value="0.16417272338606242" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/thiet ke android/Assignment/app/src/main/res/layout/activity_dang_ky.xml" value="0.28241160471441523" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/thiet ke android/Assignment/app/src/main/res/layout/activity_login.xml" value="0.2988679352838745" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/thiet ke android/Assignment/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/thiet ke android/Assignment/app/src/main/res/layout/activity_signup_step1.2.xml" value="0.22359982898674646" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/thiet ke android/Assignment/app/src/main/res/layout/activity_signup_step1.xml" value="0.2988679352838745" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/thiet ke android/Assignment/app/src/main/res/layout/activity_signup_step1_2.xml" value="0.30915684496826834" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/thiet ke android/Assignment/app/src/main/res/layout/activity_signup_step2.xml" value="0.2988679352838745" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/thiet ke android/Assignment/app/src/main/res/layout/activity_themgiaodich.xml" value="0.22359982898674646" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/thiet ke android/Assignment/app/src/main/res/layout/card_vi.xml" value="0.4035912783240701" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/thiet ke android/Assignment/app/src/main/res/layout/dangnhap_layout.xml" value="0.2201795639162035" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/thiet ke android/Assignment/app/src/main/res/layout/diaglog_thongbao.xml" value="0.39848037146475307" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/thiet ke android/Assignment/app/src/main/res/layout/dialog_avatar.xml" value="0.4035912783240701" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/thiet ke android/Assignment/app/src/main/res/layout/frm_canhan.xml" value="0.2890123984608807" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/thiet ke android/Assignment/app/src/main/res/layout/frm_home_layout.xml" value="0.2988679352838745" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/thiet ke android/Assignment/app/src/main/res/layout/getavatar_layout.xml" value="0.4035912783240701" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/thiet ke android/Assignment/app/src/main/res/layout/giadich_layout.xml" value="0.19924529018924966" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/thiet ke android/Assignment/app/src/main/res/layout/gridgia.xml" value="0.2890123984608807" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/thiet ke android/Assignment/app/src/main/res/layout/header.xml" value="0.22060709705002138" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/thiet ke android/Assignment/app/src/main/res/layout/layout_thongtinuser.xml" value="0.3621940163191296" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/thiet ke android/Assignment/app/src/main/res/layout/lv_transaction.xml" value="0.2612227447627191" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/thiet ke android/Assignment/app/src/main/res/layout/menu_dialog.xml" value="0.2668918918918919" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/thiet ke android/Assignment/app/src/main/res/layout/slideshow.xml" value="0.21932449764856776" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/thiet ke android/Assignment/app/src/main/res/layout/spinner_danhmuc.xml" value="0.39932460953989024" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/thiet ke android/Assignment/app/src/main/res/layout/spnier_vi.xml" value="0.21975203078238564" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/thiet ke android/Assignment/app/src/main/res/layout/themgiaodich_layout.xml" value="0.39848037146475307" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/thiet ke android/Assignment/app/src/main/res/menu/activity_login.xml" value="0.40059854638734504" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/thiet ke android/Assignment/app/src/main/res/menu/bottom_nav.xml" value="0.3955255382017729" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/thiet ke android/Assignment/app/src/main/res/menu/mymenu.xml" value="0.40059854638734504" />
+        <entry key="..\:/FPT Polytechnic/FPT polytechnic/thiet ke android/Assignment/app/src/main/res/menu/top_nav.xml" value="0.40059854638734504" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

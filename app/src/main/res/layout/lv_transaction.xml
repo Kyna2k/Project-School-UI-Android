@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:id="@+id/view_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/hinh"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@mipmap/ic_gas"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/info"
+        android:text="Tiền Xăng"
+        android:fontFamily="@font/magistral_bold"
+        android:textColor="@color/text_color"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/hinh"
+        android:layout_marginStart="22dp"
+        android:textSize="16dp"
+        app:layout_constraintWidth_percent="0.3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="22dp"
+        android:fontFamily="@font/pfbeausanspro_bbook"
+        android:text="18/09/2022 16:14"
+        android:textColor="@color/text_color"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toBottomOf="@+id/hinh"
+        app:layout_constraintStart_toEndOf="@+id/hinh"
+        app:layout_constraintWidth_percent="0.5" />
+
+    <TextView
+        android:id="@+id/money"
+        android:gravity="end"
+        android:layout_width="0dp"
+        app:layout_constraintWidth_percent="0.5"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/magistral_bold"
+        android:text="200,000"
+        android:textColor="@color/app_color"
+        android:textSize="14dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/note"
+        android:visibility="gone"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/time" />
+</androidx.constraintlayout.widget.ConstraintLayout>

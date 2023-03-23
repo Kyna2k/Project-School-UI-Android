@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="@string/homepage"
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home_f_svgrepo_com"
+        android:iconTint="@color/icon_fade"
+        app:showAsAction="ifRoom"
+        />
+    <item android:title="Giao dịch"
+        android:id="@+id/giaodich"
+        android:icon="@drawable/ic_transaction_svgrepo_com"
+        android:iconTint="@color/icon_fade"
+        app:showAsAction="ifRoom"
+        />
+    <item android:title="@string/person"
+        android:id="@+id/canhan"
+        android:icon="@drawable/ic_baseline_account_circle_24"
+        android:iconTint="@color/icon_fade"
+        app:showAsAction="ifRoom"
+        />
+</menu>

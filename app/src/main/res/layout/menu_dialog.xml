@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:gravity="center"
+        android:id="@+id/capnhat"
+        android:padding="10dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="30dp"
+        android:fontFamily="@font/magistral_bold"
+        android:text="Cập nhật"
+        android:textColor="@color/text_color"
+        android:textSize="16dp" />
+    <TextView
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:gravity="center"
+        android:id="@+id/xoa"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="30dp"
+        android:fontFamily="@font/magistral_bold"
+        android:text="Xóa"
+        android:textColor="@color/text_color"
+        android:textSize="16dp" />
+
+</LinearLayout>

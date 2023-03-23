@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="apptitle_sighup">
+        <item name="android:layout_marginTop">0dp</item>
+    </style>
+    <style name="apptitle_sighup_textview" parent="apptitle_sighup">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/app_color</item>
+        <item name="android:fontFamily">@font/magistral_bold</item>
+
+    </style>
+
+
+</resources>
